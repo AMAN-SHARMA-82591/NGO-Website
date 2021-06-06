@@ -1,0 +1,232 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: sans-serif;
+    box-sizing:border-box;
+
+}
+.image-logo-section{
+    width:100%;
+    max-width:1200px;
+    margin:0px auto 0px auto;
+}
+.image-logo-section img{
+    width:100%;
+    max-width:1200px;
+    margin:0px auto;
+    height:500px;
+}
+.hed-sec{
+    width:100%;
+    height:800px;
+    background-image:url("../images/WhatsApp Image 2020-09-26 at 11.54.50 AM.jpeg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    margin:0px 0px 80px 0px;
+    background-attachment:fixed;
+}
+.hed-sec::after{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    background-color:black;
+    opacity:0.6;
+    z-index:-1;
+
+}
+.about-heading-section{
+    margin:100px 0px 0px 0px;
+}
+.about-heading-section h1{
+        font-size:50px;
+        color:rgba(0, 0, 0, 0.822);
+        text-align:center;
+        padding:25px 80px 0px 80px;
+        letter-spacing:1px;
+}
+.contents-for-about{
+   width:100%;
+}
+.contents-container-about{
+    position:relative;
+    padding:30px 0px 0px 0px;
+   }
+.content-item-1{
+    text-align:center;
+    width:100%;
+    display:flex;
+    max-width:1250px;
+    margin:0px auto;
+    justify-content: space-between;
+    padding:0px 0px 0px 0px;
+   }
+   .content-head{
+       display:flex;
+   }
+.content-head img{
+    width:250px;
+    height:450px;
+    box-shadow:3px 3px 15px grey;
+}
+.content-head img.about-img-1{
+    margin:0px 20px 0px 0px;
+}
+.content-head img.about-img-2{
+    margin:80px 0px 0px 0px;
+}
+.content-para{
+    padding:60px 20px 0px 20px;
+    width:60%;
+    height:400px;
+}
+.content-para h1{
+    padding:50px 0px 0px 0px;
+    font-size:40px;
+    position:relative;
+}
+.content-para p{
+    letter-spacing:2px;
+    line-height:1.8rem;
+    padding:50px 10px 0px 10px;
+    font-size:20px;
+    color:rgb(53, 52, 52);
+}
+.list-content a.services-list:hover{
+    color:var(--background-2);
+}
+.list-content a.services-list.active{
+    color:var(--background-2);
+}
+.imaginary-content{
+    width:100%;
+    height:125px;
+    background-color:white;
+}
+.imaginary-content-2{
+    width:100%;
+    height:100px;
+    background-color:white;
+}
+.imaginary-content-3{
+    width:100%;
+    height:20px;
+    background-color:white;
+}
+/*--------------core-values------------------------*/
+.core-value-section{
+    width:100%;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    background-color:rgba(42, 190, 209, 0.048);
+}
+.core-value-head{
+    font-size:45px;
+    letter-spacing:1px;
+    color:white;
+    padding:70px 0px 120px 0px;
+}
+.core-content-background-image{
+    background-image: url("../images/header-2.jpeg");
+    background-size:cover;
+    width:100%;
+    z-index:-2;
+    position:relative;
+    background-attachment: fixed;
+}
+.core-content-background-image::after{
+    content:"";
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.7;
+    z-index:-1;
+    left:0;
+    position:absolute;
+    top:0;
+    background-attachment: fixed;
+
+}
+
+.core-content-1.active{
+    padding:30px 0px 120px 0px;
+}
+.core-content-1 .core-cont-para-active{
+    font-size:23px;
+    letter-spacing:3px;
+    line-height:2.5rem;
+    color:white;
+    padding:0px 150px;
+}
+
+.core-content-1{
+    text-align:center;
+    padding:50px 0px 30px 0px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    max-width:1200px;
+    margin:0px auto;
+   }
+.core-cont-head img{
+    width:450px;
+    height:450px;
+    box-shadow:3px 3px 15px grey;
+}
+
+.core-cont-para{
+    width:60%;
+    height:400px;
+    border-radius:15px;
+}
+.core-cont-para h1{
+    color:black;
+    font-size:35px;
+    padding:50px 0px 0px 0px;
+}
+.core-cont-para p{
+    padding:50px 20px 10px 20px;
+    letter-spacing:2px;
+    font-size:20px;
+    line-height:1.8rem;
+    color:black;
+}
+
+
+/*--------------------------------Events-section-----------------------------------------*/
+
+.events-section{
+    margin:100px 0px;
+    text-align:center;
+    width:100%;
+    position:relative;
+}
+.events-cont-1 h1{
+    font-size:35px;
+    letter-spacing:2px;
+}
+.events-cont-2{
+    margin:100px auto 0px auto;
+    max-width:95%;
+    width:95%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.events-cont-2 img{
+    width:250px;
+    height:250px;
+    padding:20px;
+    border:1px solid grey;
+    box-shadow:2px 2px 10px grey;
+    transition:padding 0.5s ease;
+    cursor:pointer;
+}
+.events-cont-2 img:hover{
+    filter:grayscale(30%);
+    padding:0px;
+}
